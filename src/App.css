@@ -1,38 +1,82 @@
 .App {
-  text-align: center;
+  font-family: 'Istok Web', serif;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blue {
+  background-color: #0207a2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.red {
+  background-color: #ed443a;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tan {
+  background-color: #e7be9f;
+}
+
+.green {
+  background-color: #295328;
+}
+
+.App-header, footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header img {
+  height: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  font-family: 'Mansalva';
+  text-transform: uppercase;
+  color: #0207a2;
+  text-align: center;
+  font-size: 30px;
+  margin: 40px 0;
+}
+
+p {
+  font-size: x-large;
+  font-family: 'Istok Web';
+  margin-bottom: 30px;
+}
+
+.calloutContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 40px 0;
+}
+.calloutContainer .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.calloutText {
+  flex: 2;
+  padding-right: 20px;
+}
+
+.calloutButton {
+  flex: 1;
+  vertical-align: middle;
+  background-color: yellow;
+  
+  
+}
+
+.calloutButton button {
+  font-size: 30px;
+  width: 100%;
+  height: 100%;
 }
