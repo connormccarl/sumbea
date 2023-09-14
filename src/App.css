@@ -20,6 +20,10 @@
   background-color: #295328;
 }
 
+.white {
+  color: #ffffff;
+}
+
 .App-header, footer {
   display: flex;
   flex-direction: column;
