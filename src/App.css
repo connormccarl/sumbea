@@ -72,7 +72,6 @@ p {
 .column {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
 }
 
 .calloutText {
@@ -82,10 +81,7 @@ p {
 
 .calloutButton {
   flex: 1;
-  vertical-align: middle;
   background-color: yellow;
-  
-  
 }
 
 /* PDF Form */
@@ -176,6 +172,10 @@ p {
 
 .pdfText p {
   font-size: 15px;
+}
+
+.calloutButton a {
+  height: 100%;
 }
 
 .calloutButton button {

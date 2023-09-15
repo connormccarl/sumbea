@@ -1,12 +1,27 @@
+import { useState } from "react";
+
 const RadiationPDF = () =>{
+    const [inputs, setInputs] = useState({});
+    
+    const handleChange = (event) => {
+        const name = event.target.name;
+        const value = event.target.value;
+        setInputs(values => ({...values, [name]: value}));
+    };
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        alert(JSON.stringify(inputs));
+    };
+
     return (
         <main className="pdfContainer">
             <div className="pdfForm column">
                 <img style={{width: 250, alignSelf: "center", marginBottom: 30}} src="./sumbea_vertical.png" alt="Sumbea Logo" />
-                <form>
-                    <input type="text" name="name" placeholder="Your Name" />
-                    <input type="text" name="location" placeholder="Your Location" />
-                    <input type="email" name="email" placeholder="Email Address" />
+                <form onSubmit={handleSubmit}>
+                    <input type="text" name="name" placeholder="Your Name" value={inputs.name || ""} onChange={handleChange} />
+                    <input type="text" name="location" placeholder="Your Location" value={inputs.location || ""} onChange={handleChange} />
+                    <input type="email" name="email" placeholder="Email Address" value={inputs.email || ""} onChange={handleChange} />
                     <input type="submit" value="Download PDF" />
                 </form>
             </div>
