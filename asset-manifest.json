@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sumbea/static/css/main.197b0d08.css",
+    "main.js": "/sumbea/static/js/main.f127b261.js",
+    "static/js/787.34fe7bd2.chunk.js": "/sumbea/static/js/787.34fe7bd2.chunk.js",
+    "index.html": "/sumbea/index.html",
+    "main.197b0d08.css.map": "/sumbea/static/css/main.197b0d08.css.map",
+    "main.f127b261.js.map": "/sumbea/static/js/main.f127b261.js.map",
+    "787.34fe7bd2.chunk.js.map": "/sumbea/static/js/787.34fe7bd2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.197b0d08.css",
+    "static/js/main.f127b261.js"
+  ]
+}
