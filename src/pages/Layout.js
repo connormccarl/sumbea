@@ -5,7 +5,7 @@ const Layout = () =>  {
         <div className="App">
             <header className="App-header">
                 <Link to="/">
-                    <img src="./sumbea_horizontal.png" alt="Sumbea Logo" />
+                    <img src="/sumbea/sumbea_horizontal.png" alt="Sumbea Logo" />
                 </Link>
             </header>
 
