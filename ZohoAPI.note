@@ -1,0 +1,7 @@
+{
+    "access_token": "1000.01e4361f5e3a4f3ba6f3f1174af372fb.770b3e2aa5d56408b03db09b3b6920cf",
+    "scope": "ZohoCampaigns.contact.ALL",
+    "api_domain": "https://www.zohoapis.com",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
